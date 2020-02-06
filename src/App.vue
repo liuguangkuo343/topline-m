@@ -13,6 +13,9 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style scoped lang="less">
+        @import url('./styles/variables.less');
+        .title {
+          color:@color-primary
+        }
 </style>
