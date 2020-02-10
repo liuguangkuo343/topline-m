@@ -4,7 +4,7 @@ import request from '../utils/request'
 export const login = data => {
   return request({
     method: 'POST', // 请求方法
-    url: ' /app/v1_0/authorizations', // 请求路径
+    url: '/app/v1_0/authorizations', // 请求路径
     // headers: {}, // 请求头
     // params: {}, // 查询参数query
     data// body请求体参数
